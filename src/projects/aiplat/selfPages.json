@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "path": "pages/aiplat/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": "登录页",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/aiplat/apps",
+      "style": {
+        "navigationBarTitleText": "应用展示",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/aiplat/donate",
+      "style": {
+        "navigationBarTitleText": "捐赠我们",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/common/userAgent",
+      "style": {
+        "navigationBarTitleText": "userAgent",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/common/h5",
+      "style": {
+        "navigationBarTitleText": "h5站点",
+        "h5": {
+          "titleNView": false
+        }
+      }
+    }
+  ],
+  "tabBar": {
+    // "color": "#9b9b9b",
+    // "selectedColor": "#FD1414",
+    // "backgroundColor": "#EAEAEA",
+    // "list": [
+    //   {
+    //     "pagePath": "pages/aiplat/index",
+    //     "text": "首页",
+    //     "iconPath": "static/img/sy_01.png",
+    //     "selectedIconPath": "static/img/sy_01on.png"
+    //   },
+    //   {
+    //     "pagePath": "pages/aiplat/apps",
+    //     "text": "应用展示",
+    //     "iconPath": "static/img/sy_03.png",
+    //     "selectedIconPath": "static/img/sy_03on.png"
+    //   },
+    //   {
+    //     "pagePath": "pages/aiplat/donate",
+    //     "text": "捐赠我们",
+    //     "iconPath": "static/img/sy_04.png",
+    //     "selectedIconPath": "static/img/sy_04on.png"
+    //   }
+    // ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#FFFFFF"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "(.*)": "@/components/$1.vue"
+    }
+  }
+}
